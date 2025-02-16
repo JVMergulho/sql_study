@@ -36,5 +36,6 @@ CREATE SEQUENCE seq_cod_curso
 INSERT INTO Curso VALUES(seq_cod_curso.NEXTVAL, 'Ciência da Computação');
 INSERT INTO Curso VALUES(seq_cod_curso.NEXTVAL, 'Medicina');
 
-INSERT INTO Professor (matricula_professor, nome, data_admissao) VALUES(321, 'Samantha Nunes', TO_DATE('12/04/2008', 'DD/MM/YYYY'));
+INSERT INTO Professor (matricula_professor, nome, data_admissao) 
+VALUES(321, 'Samantha Nunes', TO_DATE('12/04/2008', 'DD/MM/YYYY')); -- matricula_lider fica NULL
 INSERT INTO Professor VALUES(123, 'Generson Pereira', TO_DATE('20/02/2014', 'DD/MM/YYYY'), 321);
